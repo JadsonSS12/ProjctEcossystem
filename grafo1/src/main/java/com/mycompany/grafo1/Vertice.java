@@ -13,6 +13,7 @@ import java.util.ArrayList;
  */
 public class Vertice<TIPO> {
     private TIPO dado;
+    private TIPO habitat;
     private Double TaxaDeMortalidade;
 
     private ArrayList<Aresta<TIPO>> arestasEntrada;
